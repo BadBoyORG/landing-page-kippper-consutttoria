@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap";
+
+:root {
+  --primary-text: #0f172a;
+  --secondary-text: #475569;
+  --primary-color: #8455ff;
+  --secondary-color: #5222d0;
+  --light-primary-color: #b79ff7;
+  --bg-secondary: #351686;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

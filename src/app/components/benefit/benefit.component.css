@@ -1,0 +1,24 @@
+div {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+
+  img {
+    position: static !important;
+    object-fit: cover;
+  }
+
+  h4 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: var(--primary-text);
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--secondary-text);
+  }
+}
